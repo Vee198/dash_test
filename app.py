@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # อ่านข้อมูลจากไฟล์ Excel
-df = pd.read_excel('C:/Users/Veerachai.Sawatvanic/Desktop/export.XLSX')
+df = pd.read_excel('export.XLSX')
 
 # สร้างแอป Dash
 app = dash.Dash(__name__)
