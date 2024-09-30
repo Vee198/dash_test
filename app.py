@@ -10,6 +10,8 @@ df = pd.read_excel('export.XLSX')
 # สร้างแอป Dash
 app = dash.Dash(__name__)
 
+server = app.server
+
 # ตัวเลือกกราฟ
 graph_types = ['Bar', 'Line', 'Pie', 'Waterfall']
 
